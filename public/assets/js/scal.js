@@ -7,7 +7,7 @@ function openNav() {
 const preloader = document.getElementById("preloader");
 setTimeout(() => {
     document.getElementById("preloader").classList.add("hidden");
-    document.body.classList.remove("overflow_hidden")
+    document.body.classList.remove("overflow-hidden")
 }, 2000);
 
 // back to top //
