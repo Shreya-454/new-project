@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+.cross .line1 {
+    transform: rotate(50deg) translate(17px, 14px);
+}
+
+.cross .line2 {
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.cross .line3 {
+    transform: rotate(-50deg) translateY(-50%);
+}
+
+.show {
+    left: 0;
+}
+
+.textgradient {
+    background: linear-gradient(134deg, #0076BE 11.95%, #95D8EB 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bordergradient {
+    border-image-source: linear-gradient(136.39deg, #0076BE 3.65%, #48BF91 89.63%);
+    border-image-slice: 1;
+    border-radius: 16px;
+}
+
+
